@@ -1,0 +1,18 @@
+.checkerboard {
+	display: grid;
+  grid-template-columns: repeat(8,100px);
+}
+
+.black_square, .white_square {
+	width:100px;
+	height:100px;
+	float:center;
+}
+
+.black_square {
+	background-color:black;
+}
+
+.white_square {
+	background-color:white;
+}
