@@ -1,0 +1,23 @@
+table{
+    height: 500px;
+    width: 1000px;
+}
+
+table, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+
+img{
+    position: absolute;
+    margin-top: -500px;
+    width: 400px;
+    height: 269px;
+}
