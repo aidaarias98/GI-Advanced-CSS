@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+ .products{
+    background-color:grey;
+    padding: 3em;    
+}
+    
+ .products .card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+ }
+
+ .card .title{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .card img{
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 20px;
+ }
+
+ .card .text{
+    text-align: left;
+ }
+
+ button{
+    background-color: red;
+ }
+
+ button:hover{
+    color: white;
+ }
+
+ .container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+  }
+  
